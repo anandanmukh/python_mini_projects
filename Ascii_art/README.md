@@ -11,10 +11,10 @@ In the command line, Enter
 
 `python3 make_art.py [image_path]`
 
-Replace the `[image_path]` with the image you want to do ascii-art. By default it takes [sample_image.png](https://github.com/anandanmukh/python_mini_projects/Ascii_art/sample_image.png)
+Replace the `[image_path]` with the image you want to do ascii-art. By default it takes [sample_image.png](https://github.com/anandanmukh/python_mini_projects/blob/master/Ascii_art/sample_image.png)
 
 ## Customization
-There are two things you can customize in [make_art.py](https://github.com/anandanmukh/python_mini_projects/Ascii_art/make_art.py).
+There are two things you can customize in [make_art.py](https://github.com/anandanmukh/blob/master/python_mini_projects/Ascii_art/make_art.py).
 
 * `symbols_list`
 * `threshold_list`
