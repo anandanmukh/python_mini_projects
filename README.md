@@ -34,7 +34,6 @@ To get started with Python, follow these steps:
 - **Verify installation**: Open a terminal or command prompt and run the following command:
 
 ```bash
-Copy code
 python --version
 ```
 
@@ -45,8 +44,7 @@ To use this repository, follow these steps:
 
 Clone the repository: Open a terminal or command prompt and navigate to the directory where you want to store the repository. Then run the following command:
 ```bash
-Copy code
-git clone https://github.com/username/python-projects.git
+git clone https://github.com/anandanmukh/python_mini_projects.git
 ```
 Replace username with your GitHub username.
 
@@ -54,9 +52,9 @@ Navigate to a project: Navigate to the directory of a project that you want to e
 
 Install dependencies: Run the following command to install the dependencies for the project:
 
-bash
-Copy code
+```bash
 pip install -r requirements.txt
-Run the project: Follow the instructions provided in the README.md file of the project to run the project.
-Conclusion
+```
+
+## Conclusion
 Python is a powerful programming language with a vast ecosystem of libraries and tools that can be used for various purposes. This repository provides a collection of small projects that demonstrate the basic programming concepts and popular libraries in Python, and can be integrated into larger projects. To get started, download
