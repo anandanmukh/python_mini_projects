@@ -24,14 +24,28 @@ class YoutubeDownloader:
         print(f"Downloading: {py.title}")
         i = 1
         for video in py.videos:
-            video.streams.get_highest_resolution().download(filename_prefix= f"{i}. ")
+            video.streams.get_highest_resolution().download(filename_prefix= f"{i}.")
             i += 1
 
         print("Download complete!")
 
+    def playlist(self):
+        plist=input('Enter a playlist URL: ')
+
+        videos=list(Playlist(plist))
+
+        for i in range(len(videos)):
+            print(i,'-',videos[i])
+
+            video   = YouTube(videos[i], use_oauth=True, allow_oauth_cache=True)
+            stream  = video.streams.get_by_itag(140)
+            stream.download()
+    
+        print('----------done---------')
+
 
 if __name__ == "__main__":
     yt = YoutubeDownloader()
-    yt.playlist_downloader()
+    yt.playlist()
 
 
